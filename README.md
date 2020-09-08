@@ -10,7 +10,7 @@ URL: https://trakt-widgets.herokuapp.com/user/view/type?language=en
 
 | Name | Required | Default |Description |
 | :--- | :---: | :---: | :--- |
-| `user` | **Yes**  |  | Trakt User slug (account must be **not private**) |
+| `user` | **Yes**  |  | Trakt User slug (_account must be **not private**_) |
 | `view` | **Yes** |  | See more [Views](#views) |
 | `type` | **Yes** |  | See more [Types](#types) |
 | `language` | No | en | Language of texts in images: `en` or `it` |
@@ -24,20 +24,37 @@ _Example:_
 
 ### Views
 
-Possible values: `profile` _More Coming Soon_  
+Possible values: `profile` `watched` `watching` ... _more coming soon_  
 
 
 ### Types
 
-Possible values: `poster` _More Coming Soon_  
+Possible values: `poster` ... _more coming soon_  
 
-**Note:** _Profile_ View works **only** with _Poster_ Type  
+**IMPORTANT NOTE** `Profile` View works **only** with `Poster` Type  
 
 ---
 
 ## Examples
 
-#### Profile Poster
+### Posters
+
+#### Profile
 
 ![Profile Poster](https://trakt-widgets.herokuapp.com/pizidavi/profile/poster)  
 
+#### Watched 
+
+![Watched Poster](https://trakt-widgets.herokuapp.com/pizidavi/watched/poster)  
+
+#### Watching 
+
+![Watching Poster](https://trakt-widgets.herokuapp.com/pizidavi/watching/poster)  
+
+
+---
+
+## Credits
+
+- [Trakt API](https://www.trakt.tv)
+- [TheMovieDB API](https://www.themoviedb.org)
