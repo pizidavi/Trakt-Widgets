@@ -2,6 +2,7 @@
 
 Trakt Widgets for free users!  
 
+
 ## Usage
 
 Add _&lt;img&gt;_ tag in your HTML:  
@@ -24,14 +25,13 @@ _Example:_
 
 ### Views
 
-Possible values: `profile` `watched` `watching` ... _more coming soon_  
+Possible values: `profile` `watched` `watching`  
 
+**IMPORTANT NOTE** `profile` View works **only** with `poster` Type  
 
 ### Types
 
-Possible values: `poster` ... _more coming soon_  
-
-**IMPORTANT NOTE** `Profile` View works **only** with `Poster` Type  
+Possible values: `poster` `card` `banner` `fanart` `text`  
 
 ---
 
@@ -52,9 +52,53 @@ Possible values: `poster` ... _more coming soon_
 ![Watching Poster](https://trakt-widgets.herokuapp.com/pizidavi/watching/poster)  
 
 
+### Card
+
+#### Watched 
+
+![Watched Card](https://trakt-widgets.herokuapp.com/pizidavi/watched/card)  
+
+#### Watching 
+
+![Watching Card](https://trakt-widgets.herokuapp.com/pizidavi/watching/card)  
+
+
+### Banner
+
+#### Watched 
+
+![Watched Banner](https://trakt-widgets.herokuapp.com/pizidavi/watched/banner)  
+
+#### Watching 
+
+![Watching Banner](https://trakt-widgets.herokuapp.com/pizidavi/watching/banner)  
+
+
+### FanArt
+
+#### Watched 
+
+![Watched FanArt](https://trakt-widgets.herokuapp.com/pizidavi/watched/fanart)  
+
+#### Watching 
+
+![Watching FanArt](https://trakt-widgets.herokuapp.com/pizidavi/watching/fanart)  
+
+
+### Text
+
+#### Watched 
+
+![Watched Text](https://trakt-widgets.herokuapp.com/pizidavi/watched/text)  
+
+#### Watching 
+
+![Watching Text](https://trakt-widgets.herokuapp.com/pizidavi/watching/text)  
+
 ---
 
 ## Credits
 
-- [Trakt API](https://www.trakt.tv)
+- [Trakt API](https://trakt.tv)
 - [TheMovieDB API](https://www.themoviedb.org)
+- [FanArt API](https://fanart.tv)
