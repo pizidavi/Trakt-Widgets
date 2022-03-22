@@ -1,5 +1,7 @@
 # Trakt Widgets
 
+> ⚠ Moved to [Trakt-Widgets-2](https://github.com/pizidavi/Trakt-Widgets-2)
+
 Trakt Widgets for free users!  
 
 
